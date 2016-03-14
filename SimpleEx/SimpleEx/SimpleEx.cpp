@@ -10,12 +10,6 @@
 
 int superSimple(){
 
-	vector<mat2> layer;
-	layer.reserve(3);
-	layer.push_back(mat2(1, mat1(9, 0.)));
-	layer.push_back(mat2(1, mat1(4, 0.)));
-	layer.push_back(mat2(1, mat1(1, 0.)));
-
 	const int len = 4;
 
 	vector<>
