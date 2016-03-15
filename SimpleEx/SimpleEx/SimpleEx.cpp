@@ -7,7 +7,7 @@
 
 
 
-
+/*
 int superSimple(){
 
 	const int len = 4;
@@ -66,7 +66,7 @@ int superSimple(){
 
 	return 0;
 }
-
+*/
 
 int test(){
 	/*
@@ -126,8 +126,7 @@ int test(){
 int _tmain(int argc, _TCHAR* argv[]){
 	srand((unsigned int)time(NULL));
 
-	return 0;
-
+	
 	vector<mat2> layer;
 	layer.reserve(7);
 	//layer.push_back(mat2(8, mat1(8, 0.)));
@@ -144,7 +143,7 @@ int _tmain(int argc, _TCHAR* argv[]){
 
 	mat3 trainInput = txtIn("TrainingList.txt");
 	
-	const int len = 16;
+	const int len = 8;
 
 	indiv being[len];
 	indiv nbeing[len];
@@ -153,7 +152,7 @@ int _tmain(int argc, _TCHAR* argv[]){
 		cout << i << "score: " << being[i].score << endl;
 	}
 
-	int alter=100;
+	int alter=50;
 	int from, to;
 	double foot = 0.5;
 	while (alter>0){
